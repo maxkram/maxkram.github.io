@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ледяной дом - Ваше пристанище в Арктике</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+    <link rel="stylesheet" href="style-main.css" type="text/css" media="all">
+
+    <script src="JS/script.js" defer></script>
+    <script src="JS/libs/flexibility.js"></script>
+    <script>
+        /*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+        !function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",r.parentNode.insertBefore(o,r),o.onloadcssdefined=function(e){for(var n,t=0;t<a.length;t++)a[t].href&&a[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,s=t.Image,d=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===i.userAgent.indexOf("Chrome")||-1!==i.userAgent.indexOf("Series40")),l=new s;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&d?0:t?1:2];t&&d?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t=n.document,o="grunticon:",r=function(e){if(t.attachEvent?"complete"===t.readyState:"loading"!==t.readyState)e();else{var n=!1;t.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},a=function(e){return n.document.querySelector('link[href$="'+e+'"]')},i=function(e){var n,t,r,a,i,c,s={};if(n=e.sheet,!n)return s;t=n.cssRules?n.cssRules:n.rules;for(var d=0;d<t.length;d++)r=t[d].cssText,a=o+t[d].selectorText,i=r.split(");")[0].match(/US\-ASCII\,([^"']+)/),i&&i[1]&&(c=decodeURIComponent(i[1]),s[a]=c);return s},c=function(e){var n,r,a,i;a="data-grunticon-embed";for(var c in e){i=c.slice(o.length);try{n=t.querySelectorAll(i)}catch(s){continue}r=[];for(var d=0;d<n.length;d++)null!==n[d].getAttribute(a)&&r.push(n[d]);if(r.length)for(d=0;d<r.length;d++)r[d].innerHTML=e[c],r[d].style.backgroundImage="none",r[d].removeAttribute(a)}return r},s=function(n){"svg"===e.method&&r(function(){c(i(a(e.href))),"function"==typeof n&&n()})};e.embedIcons=c,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=s,e.embedSVG=s}(grunticon,this)}();
+        grunticon(["gfx/icons.data.svg.css", "gfx/icons.data.png.css", "gfx/icons.fallback.css"], grunticon.svgLoadedCallback);
+    </script>
+    <noscript><link href="gfx/icons.fallback.css" rel="stylesheet"></noscript>
+</head>
+
+<body>
+    <a class="skip-link screen-reader-text" href="#content">К содержанию</a>
+
+    <header class="masthead clear">
+        <div class="site-header centered">
+            <div class="site-branding">
+                <h1 class="site-title"><a href="/"><span class="icon-mmlogo" data-grunticon-embed></span>Ледяной дом</a></h1>
+            </div>
+            <nav id="multi-level-nav" class="menu multi-level-nav">
+                <ul>
+                    <li><a href="#">Домой</a></li>
+                    <li class="has-children">
+                        <a href="#">Your Stay<button class="dropdown-toggle" aria-expanded="false"><span class="screen-reader-text">Развернуть меню</span></button></a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Виды</a></li>
+                            <li><a href="#">Еда</a></li>
+                            <li><a href="#">Удобства</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a class="reserve" href="#">Зарезервировать</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div id="showcase" class="promo-area">
+        <div class="front-slider flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="images/mainpromo/welcome01-800.jpg" alt="" data-type="showcase" />
+                </li>
+                <li>
+                    <img src="images/mainpromo/welcome02-800.jpg" alt="" data-type="showcase" />
+                </li>
+                <li>
+                    <img src="images/mainpromo/welcome03-800.jpg" alt="" data-type="showcase" />
+                </li>
+                <li>
+                    <img src="images/mainpromo/welcome04-800.jpg" alt="" data-type="showcase" />
+                </li>
+            </ul>
+        </div>
+        <div class="promo-content">
+            <div class="promo-text">
+                <h2 class="promo-title">Отель в Арктике?!?</h2>
+                <p class="promo-lede">Полная чушь! Кому в голову придет такая идея? Околеешь же!</p>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-area">
+
+        <div class="top-pitch centered">
+            <h2 class="main-title">Добро пожаловать в Ледяной дом</h2>
+            <p class="teaser two-column">
+                Ледяной дом - великолепный отель в Арктике. Да, прямо посреди ледяной  <strong>пустыни</strong>. Всегда хотели увидеть край земли? Теперь Вы можете это сделать. Вы можете любоваться снежными буранами и белыми медведями пока нежитесь в спа или занимаетесь йогой. Несколько дней в этом отеле сделают Ваш отпуск, медовый месяц или бизнес-конференцию незабыемой. Пребывание в Ледяном отеле изменят Вас как личность, открыв новые горизонты возможностей.
+            </p>
+        </div>
+        <div class="cta">
+            <a href="#">Зарезервируйте номер!</a>
+        </div>
+
+        <section class="main-pitch">
+            <div class="three-reasons centered">
+                <figure class="reason">
+                    <a href="">
+                        <img src="images/mainpromo/welcome02-800.jpg" alt="" data-type="reason" />
+                    </a>
+                    <figcaption>
+                        <h3 class="content-title">Номер с видом</h3>
+                        <p>Каждый номер в Ледяном доме оборудован панорамным окном с видом на ледяную пустыню Арктики.</p>
+                        <a class="content-button" href="#">Узнать больше<span class="screen-reader-text"> об этих видах.</span></a>
+                    </figcaption>
+                </figure>
+                <figure class="reason">
+                    <a href="">
+                        <img src="images/mainpromo/welcome03-800.jpg" alt="" data-type="reason" />
+                    </a>
+                    <figcaption>
+                        <h3 class="content-title">Роскошный сон</h3>
+                        <p>Вы помните, Земля - это не шар, а геоид. А значит сила тяжести на полюсах меньше. Ваше тело буквально отдохнет от тяжести будней.</p>
+                        <a class="content-button" href="#">Узнать больше<span class="screen-reader-text"> о сне в Арктике.</span></a>
+                    </figcaption>
+                </figure>
+                <figure class="reason">
+                    <a href="">
+                        <img src="images/mainpromo/welcome04-800.jpg" alt="" data-type="reason" />
+                    </a>
+                    <figcaption>
+                        <h3 class="content-title">Первоклассной обслуживание</h3>
+                        <p>Ваши удобства и безопасность - наши приоритеты. Мы гордимся высокими стандартами обслуживания в наших высоких широтах. Даже во время полярной ночи.</p>
+                        <a class="content-button" href="#">Узнать больше<span class="screen-reader-text"> смотровых площадках для наблюдения за северным сеянием.</span></a>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="pitch">
+            <div class="centered">
+                <h2 class="main-title">Арктические приключения</h2>
+                <p class="teaser two-column">
+                    Ледяной дом - это не очередной отель. Вы попадаете на неизведанную территорию. Отойдя на 3 метра от отеля, Вы можете поставить ногу туда, где до Вас не было ни одного человека. Это будет уникальный контент для Вашего Инстаграма.
+                </p>
+            </div>
+        </section>
+
+        <section class="features centered">
+            <figure class="feature">
+                <a href="#">
+                    <img src="images/experience/apartmentclass-800.jpg" alt="" data-type="feature" />
+                </a>
+                <figcaption>
+                    <h3 class="content-title">Размещение в апартаментах</h3>
+                    <p>Почувствуйте себя как дома посреди ледяной Арктики. Ледяной дом предлагает апартаменты, удобные настолько, как если бы Вы остановились в 5-звездном отеле Парижа.</p>
+                    <a class="content-button" href="#">Узнать больше<span class="screen-reader-text"> об апартаментах.</span></a>
+                </figcaption>
+            </figure>
+            <figure class="feature">
+                <a href="#">
+                    <img src="images/experience/fivestardining-800.jpg" alt="" data-type="feature" />
+                </a>
+                <figcaption>
+                    <h3 class="content-title">Еда экстра-класса</h3>
+                    <p>Мы забрали с большой земли самых лучших поваров. Возможно Арктика добавит новых вкусов в популярные блюда? Стоит попробовать прямо сейчас!</p>
+                    <a class="content-button" href="#">Узнать больше<span class="screen-reader-text"> о Арктическом Крем-брюле.</span></a>
+                </figcaption>
+            </figure>
+            <figure class="feature">
+                <a href="#">
+                    <img src="images/experience/gravitygym-800.jpg" alt="" data-type="feature" />
+                </a>
+                <figcaption>
+                    <h3 class="content-title">Aurora Borealis</h3>
+                    <p>"Навстречу северной Авроры, Звездою севера явись!" Наши смотровые площадки поместят Вас прямо внутрь северного сияния</p>
+                    <a class="content-button" href="#">Узнать больше<span class="screen-reader-text"> о смотровых площадках.</span></a>
+                </figcaption>
+            </figure>
+            <figure class="feature">
+                <a href="#">
+                    <img src="images/experience/spa-800.jpg" alt="" data-type="feature" />
+                </a>
+                <figcaption>
+                    <h3 class="content-title">Ледяной Спа</h3>
+                    <p>Мы добываем воду из древних айсбергов. Эта кристально-чистая вода является основой наших спа-процедур. Уникальные свойства древней воды смогут омолодить Вас. Ощутимый эффект после первого визита.</p>
+                    <a class="content-button" href="#">Узнать больше<span class="screen-reader-text"> о древней воде.</span></a>
+                </figcaption>
+            </figure>
+
+        </section>
+
+        <div class="cta">
+            <a href="#">Зарезервировать сейчас!</a>
+        </div>
+
+        <h2 class="main-title">Истории из Арктики</h2>
+        <section class="stories centered">
+            <div class="story-slider flexslider">
+                <ul class="slides">
+                    <li>
+                        <figure class="story-wrapper">
+                            <img src="images/testimonials/bluepebble-800.jpg" alt="" data-type="story" />
+                            <figcaption class="story">
+                                <h3 class="story-header">Северное сеяние</h3>
+                                <div class="author">Андрей Егоров</div>
+                                <p>Белые ночи и северное сеяние в СПб - лишь отголосок от того буйства природы, которое можно увидеть здесь.</p>
+                                <a href="#" class="content-button">Прочитать целиком</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="story-wrapper">
+                            <img src="images/testimonials/earth-800.jpg" alt="" data-type="story" />
+                            <figcaption class="story">
+                                <h3 class="story-header">Метель и какао</h3>
+                                <div class="author">Юлия Пичугина</div>
+                                <p>За окном метель и ветер со скоростью 120 км/ч. Белые медведи и льдины, а ты под теплым пледом с чашкой горячего какао в руках. И ты на вершине мира. Буквально!</p>
+                                <a href="#" class="content-button">Прочитать целиком</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="story-wrapper">
+                            <img src="images/testimonials/footprint-800.jpg" alt="" data-type="story" />
+                            <figcaption class="story">
+                                <h3 class="story-header">След в истории</h3>
+                                <div class="author">Ильдар Гильфанов</div>
+                                <p>По асфальту наших городов проходят сотни ног в день. Даже если уехать далеко от города, обязательно найдешь смятую пачку от сигарет или други следы людей. Здесь же стоит отойти от отеля на несколько шагов, и ты можешь поставить свою ногу туда, куда еще никто не наступал до тебя!</p>
+                                <a href="#" class="content-button">Прочитать целиком</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="story-wrapper">
+                            <img src="images/testimonials/zerog-800.jpg" alt="" data-type="story" />
+                            <figcaption class="story">
+                                <h3 class="story-header">Низкая гравитация</h3>
+                                <div class="author">Ярослава Гейко</div>
+                                <p>Эта древняя вода не рекламный трюк. Это работает! Спа процедуры и низкая сила тяжести помогают сбросить многомесячную усталость городской жизни и отдохнуть на 120%!</p>
+                                <a href="#" class="content-button">Прочитать целиком</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer-widgets centered">
+            <div class="widget footer-menu">
+                <h4 class="widget-title">Найдите свой путь</h4>
+                <ul>
+                    <li><a href="#">Домой</a></li>
+                    <li><a href="#">Апартаменты</a></li>
+                    <li><a href="#">Красоты</a></li>
+                    <li><a href="#">Еда</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="widget footer-cta">
+                <h4 class="widget-title">Зарезервировать</h4>
+                <p>О чем тут думать? Резервируйте прямо сейчас!</p>
+                <a href="#">Заказать номер!</a>
+
+            </div>
+            <div class="widget footer-address">
+                <address>
+                    <h4 class="widget-title">Ледяной дом</h4>
+                    <p>
+                        Арктика, Российский сегмент<br>
+                        8-я полярная станция<br>
+                        ул. маузера Папанина, 1
+                    </p>
+                </address>
+            </div>
+        </section>
+        <nav class="social-nav" role="navigation">
+            <ul>
+                <li><a class="icon-linkedin" data-grunticon-embed href="https://linkedin.com"><span class="screen-reader-text">LinkedIn</span></a></li>
+                <li><a class="icon-twitter" data-grunticon-embed href="https://twitter.com"><span class="screen-reader-text">Twitter</span></a></li>
+                <li><a class="icon-facebook" data-grunticon-embed href="https://facebook.com"><span class="screen-reader-text">Facebook</span></a></li>
+                <li><a class="icon-instagram" data-grunticon-embed href="https://instagram.com"><span class="screen-reader-text">Instagram</span></a></li>
+                <li><a class="icon-youtube" data-grunticon-embed href="https://youtube.com"><span class="screen-reader-text">YouTube</span></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="JS/libs/jquery-2.1.3.min.js"></script>
+    <script src="JS/libs/jquery.flexslider-min.js"></script>
+    <script src="JS/menu-toggle.js"></script>
+    <script src="JS/flexslider.js"></script>
+
+</body>
+
+</html>
